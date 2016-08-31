@@ -1,0 +1,29 @@
+body {
+	margin-top: 100px;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(239, 239, 239);
+	background-color: rgb(10, 10, 10);
+}
+
+#uw {
+	color: rgb(167, 62, 223);
+}
+
+a {
+	color: rgb(150, 150, 150);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	margin: 5px;
+}
