@@ -5,8 +5,8 @@ body {
 	background-color: rgb(10, 10, 10);
 }
 
-#uw {
-	color: rgb(167, 62, 223);
+footer {
+
 }
 
 a {
@@ -26,4 +26,28 @@ ul {
 li {
 	display: inline;
 	margin: 5px;
+}
+
+#uw {
+	color: rgb(167, 62, 223);
+}
+
+#me {
+	width: 240px;
+	height: 240px;
+	overflow: hidden;
+	border-radius: 25%;
+	margin-bottom: 20px;
+}
+
+#me img{
+	width: 240px;
+	margin: -50px 0 0 0;
+}
+
+#corner {
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+	font-size: smaller;
 }
