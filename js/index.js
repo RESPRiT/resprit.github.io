@@ -90,7 +90,7 @@ function draw(){
   fill = milli / 1000;
   
   //Starting pos
-  var x = 85;
+  var x = 90;
   var y = 10;
   
   //Initial Colors
@@ -122,10 +122,10 @@ function draw(){
   //Draw milliseconds
   colors = ["101, 124, 220", "31, 52, 137"];
   ctx.fillStyle = "rgba(" + colors[0] + ", .2)"; 
-  ctx.fillRect(85, y+40, 305, 3); //This is the faint bar
+  ctx.fillRect(x-280, y+40, 305, 3); //This is the faint bar
   
   ctx.fillStyle =  "rgba(" + colors[0] + ", " + (1 - milli/1000) + ")"; 
-  ctx.fillRect(85, y+40, (milli/1000) * 305, 3); //This is the bar that scales
+  ctx.fillRect(x-280, y+40, (milli/1000) * 305, 3); //This is the bar that scales
   
   window.requestAnimationFrame(draw);
 }
