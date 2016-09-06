@@ -29,8 +29,9 @@ function draw(){
   
     ctx.globalCompositeOperation = 'destination-over';
     ctx.clearRect(0,0,canvas.width,canvas.height); // clear canvas
-  
+	
     for(var i = 0; i < Math.max(canvas.width, canvas.height) / 10; i++) {
+      ctx.lineWidth = Math.sin(((minute * 60 + second + milli / 1000) * 3 + Math.PI * 2 - i) / 6) / 2 + .6;
       drawSpinSquare(i * 10 + Math.pow(1.2, i), 10 + i);
       ctx.strokeStyle = 'rgba(255,255,255, 0.' + Math.max((50 - i * 2), 10) + ")";
     }
