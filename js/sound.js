@@ -50,7 +50,7 @@ function draw() {
         var sin = 1;//Math.sin(((minute * 60 + second + milli / 1000) * 3 + Math.PI * 2 - i) / 10);
         var sound = Math.sin(dataArray[(i) % bufferLength] / 256.0 * Math.PI / 2);
         ctx.lineWidth = Math.sin(((minute * 60 + second + milli / 1000) * 3 + Math.PI * 2 - i) / 6) / 2 + .6;
-        drawSpinSquare((i * 10 + Math.pow(1.2, i) + (sin + 1) * i * 2) * ((.4 + .5 * sound / Math.log((i + 2) / 2))), i + 5);
+        drawSpinSquare((i * 10 + Math.pow(1.2, i) + (sin + 1) * i * 2) * ((.4 + .5 * sound )), i + 5);
         ctx.strokeStyle = 'rgba(255,255,255, 0.' + Math.max((50 - i * 2), 10) + ")";
     }
 /*
