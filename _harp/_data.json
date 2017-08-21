@@ -1,0 +1,101 @@
+{
+  "education": [
+    {
+      "school": "University of Washington",
+      "location": "Seattle, WA",
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
+      "period": "June 2018 (Expected)",
+      "gpa": "3.73, Dean's List",
+      "coursework": [
+        {
+          "name": "Data Structures and Parallelism"
+        },
+        {
+          "name": "Software Design and Implementation"
+        },
+        {
+          "name": "Programming Languages"
+        },
+        {
+          "name": "Introduction to Human-Computer Interaction"
+        },
+        {
+          "name": "Discrete Mathematics"
+        },
+        {
+          "name": "Probability and Statistics"
+        },
+        {
+          "name": "The Hardware and Software Interface"
+        }
+      ]
+    }
+  ],
+  "work": [
+    {
+      "employer": "Code and Cognition Lab",
+      "position": "Research Assistant",
+      "description": "Building intelligent computer science tutoring systems using modern web technologies, including JavaScript/ES6, React, Flow, and Sass. Independently conducting research on CS student experiences, involving literature review, study design and preparation, and research paper drafting and writing. Assisting with research projects and publications through data analysis and research paper review.",
+      "period": "Sept 2016 - Present"
+    },
+    {
+      "employer": "CSE Department",
+      "position": "Teaching Assistant",
+      "description": "Developing curriculum and assignments for recently admitted UW Computer Science and Engineering transfer students. Lecturing course material to students, and facilitating assistance for academic and cultural struggles faced by transfer students within CSE.",
+      "period": "Mar 2017 - Present"
+    }
+  ],
+  "projects": [
+    {
+      "name": "koconut",
+      "location": "Code and Cognition Lab",
+      "tools": [
+        "JavaScript",
+        "React",
+        "Flow",
+        "Sass"
+      ],
+      "description": "an intelligent CS1 (introductory computer science) tutor which models and tests student knowledge through dynamic concept selection and problem assessment"
+    },
+    {
+      "name": "DubMaps",
+      "location": "DubHacks 2016",
+      "tools": [
+        "JavaScript",
+        "jQuery",
+        "Node.js",
+        "Mapbox"
+      ],
+      "description": "a UW campus map tool that can visualize student populations across campus using heatmaps and charts, and provide building information for a student’s personal class schedule "
+    }
+  ],
+  "skills": {
+    "languages": [
+      "JavaScript/ES6",
+      "Python",
+      "Java",
+      "C/C++",
+      "Ruby",
+      "Racket",
+      "Bash",
+      "HTML5/CSS3"
+    ],
+    "tools": [
+      "React",
+      "Node.js",
+      "Flow",
+      "Sass",
+      "VCS (Git, SVN)",
+      "Unix/Linux",
+      "LaTeX"
+    ],
+    "misc": [
+      "User Research",
+      "Study Design",
+      "Digital Photography",
+      "Adobe Photoshop",
+      "Adobe Animate"
+    ]
+  }
+}

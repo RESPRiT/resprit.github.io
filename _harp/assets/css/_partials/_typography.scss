@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Playfair+Display|Inconsolata');
+
+$serif-stack: (
+        'Playfair Display',
+        'Georgia',
+        'Times New Roman',
+        serif,
+);
+
+$sans-stack: (
+        'Maven Pro',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Futura',
+        sans-serif,
+);
+
+$mono-stack: (
+        'Inconsolata',
+        'Consolas',
+        monospace,
+);
+
+$base-font-size: 16px;
+
+body {
+  font-family: $sans-stack;
+  font-size: $base-font-size;
+  quotes: "“" "”" "‘" "’";
+}

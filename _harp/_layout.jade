@@ -1,6 +1,8 @@
 doctype
 html
-  head
-    link(rel="stylesheet" href="/main.css")
-  body
-    != yield
+    head
+        link(rel="stylesheet" href="assets/css/main.css")
+    body
+        main
+            != yield
+            != partial("_partials/resume")

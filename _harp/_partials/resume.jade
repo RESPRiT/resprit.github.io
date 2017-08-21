@@ -1,0 +1,56 @@
+.container
+    //- Education section
+    h2.resume_title Education
+    dl
+        for section in public._data.education
+            dt.resume_item-summary
+                .resume_item-title
+                    h3= section.school
+                        span= section.location
+                        span.title-right= section.period
+                .resume_item-subtitle
+                    h4= section.degree
+                        span= section.major
+                        span.title-right= section.gpa
+            dd.resume_item-description
+                ul.resume_item-list.list-inline
+                    strong Upper-division coursework:
+                    for course in section.coursework
+                        li= course.name
+    //- Work section
+    h2.resume_title Work Experience
+    dl
+        for section in public._data.work
+            dt.resume_item-summary
+                .resume_item-title
+                    h3= section.position
+                        span= section.employer
+                        span.title-right= section.period
+            dd.resume_item-description
+                p= section.description
+    //- Projects section
+    h2.resume_title Projects
+    dl
+        for section in public._data.projects
+            dt.resume_item-summary
+                .resume_item-title
+                    h3= section.name
+                        span= section.location
+                .resume_item-subtitle
+                    h4
+                        for tool in section.tools
+                            span= tool
+            dd.resume_item-description
+                p= section.description
+    //- Skills section
+    h2.resume_title Skills
+    dl
+        for section, name in public._data.skills
+            dt.resume_item-summary
+                .resume_item-title
+                    h3= name
+            dd.resume_item-description
+                ul.resume_item-list.list-inline
+                    for skill in section
+                        li= skill
+

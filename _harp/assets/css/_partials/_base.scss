@@ -1,0 +1,23 @@
+$spacer: 20px;
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: $spacer;
+}
+
+// Misc Utility
+.list-inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  li:not(:last-of-type) {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+.title-right {
+  float: right;
+}
+

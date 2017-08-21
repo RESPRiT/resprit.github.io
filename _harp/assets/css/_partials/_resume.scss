@@ -1,0 +1,23 @@
+.resume {
+  &_title {
+
+  }
+
+  &_item-summary {
+
+  }
+
+  &_item-subtitle,
+  &_item-title {
+    text-align: left;
+  }
+
+  &_item-description {
+
+  }
+
+  &_item-list {
+    padding: 0;
+    list-style: inside none;
+  }
+}
