@@ -1,7 +1,7 @@
 .container
     //- Education section
     h2.resume_title Education
-    dl
+    dl.resume_section
         for section in public._data.education
             dt.resume_item-summary
                 .resume_item-title
@@ -19,7 +19,7 @@
                         li= course.name
     //- Work section
     h2.resume_title Work Experience
-    dl
+    dl.resume_section
         for section in public._data.work
             dt.resume_item-summary
                 .resume_item-title
@@ -30,7 +30,7 @@
                 p= section.description
     //- Projects section
     h2.resume_title Projects
-    dl
+    dl.resume_section
         for section in public._data.projects
             dt.resume_item-summary
                 .resume_item-title
@@ -44,7 +44,7 @@
                 p= section.description
     //- Skills section
     h2.resume_title Skills
-    dl
+    dl.resume_section
         for section, name in public._data.skills
             dt.resume_item-summary
                 .resume_item-title

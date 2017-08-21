@@ -28,3 +28,11 @@ body {
   font-size: $base-font-size;
   quotes: "“" "”" "‘" "’";
 }
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}

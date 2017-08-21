@@ -1,19 +1,56 @@
 .resume {
-  &_title {
+  margin-bottom: $spacer;
 
+  &_title {
+    font-size: 1.15rem;
+    color: $blue;
+
+    position: relative;
+    margin-bottom: $spacer * 3 / 4;
+
+    &::after {
+      content: '';
+      background-color: $blue;
+      height: 1px;
+      position: absolute;
+      bottom: -10%;
+      width: 100%;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  &_section {
+    margin-bottom: $spacer;
   }
 
   &_item-summary {
-
+    margin-bottom: $spacer / 4;
   }
 
-  &_item-subtitle,
   &_item-title {
+    font-size: 1.05rem;
+    font-weight: bold;
+
     text-align: left;
+
+    margin-bottom: $spacer / 4;
+
+    span:not(:first-child) {
+      padding-left: $spacer / 3;
+    }
+  }
+
+  &_item-subtitle {
+    text-align: left;
+
+    span:not(:first-child) {
+      padding-left: $spacer / 3;
+    }
   }
 
   &_item-description {
-
+    margin-bottom: $spacer;
   }
 
   &_item-list {
@@ -21,3 +58,4 @@
     list-style: inside none;
   }
 }
+
