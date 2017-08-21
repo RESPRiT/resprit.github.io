@@ -1,0 +1,11 @@
+{
+  "name": "resprit.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RESPRiT/resprit.github.io.git",
+  "author": "Harrison Kwik <resprite@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "harp": "^0.24.0"
+  }
+}
