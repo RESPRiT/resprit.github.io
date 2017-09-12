@@ -13,10 +13,6 @@ $spacer: 20px;
   display: inline-flex;
   flex-wrap: wrap;
 
-  li:first-of-type {
-    padding-left: $spacer / 4;
-  }
-
   li:not(:last-of-type) {
     padding-right: $spacer / 4;
   }
@@ -26,4 +22,3 @@ $spacer: 20px;
   float: right;
   padding-right: 0;
 }
-

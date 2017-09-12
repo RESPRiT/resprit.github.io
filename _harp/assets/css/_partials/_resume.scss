@@ -1,3 +1,5 @@
+@import '_base'; // globals
+
 .resume {
   margin-bottom: $spacer;
 
@@ -13,7 +15,7 @@
       background-color: $blue;
       height: 1px;
       position: absolute;
-      bottom: -10%;
+      bottom: -30%;
       width: 100%;
       left: 0;
       z-index: -1;
@@ -26,36 +28,41 @@
 
   &_item-summary {
     margin-bottom: $spacer / 4;
+
+    span:not(:first-child) {
+      padding-left: $spacer / 4;
+    }
   }
 
   &_item-title {
     font-size: 1.05rem;
-    font-weight: bold;
+    font-weight: 300;
 
     text-align: left;
 
     margin-bottom: $spacer / 4;
-
-    span:not(:first-child) {
-      padding-left: $spacer / 3;
-    }
   }
 
   &_item-subtitle {
     text-align: left;
-
-    span:not(:first-child) {
-      padding-left: $spacer / 3;
-    }
   }
 
   &_item-description {
+    padding-left: $spacer * 1.5;
+    margin-bottom: $spacer;
+  }
+
+  &_item-block {
     margin-bottom: $spacer;
   }
 
   &_item-list {
     padding: 0;
     list-style: inside none;
+
+    li {
+      white-space: pre-wrap;
+    }
   }
 }
 

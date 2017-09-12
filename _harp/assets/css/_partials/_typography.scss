@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Playfair+Display|Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Playfair+Display|Inconsolata');
 
 $serif-stack: (
         'Playfair Display',
@@ -8,7 +8,7 @@ $serif-stack: (
 );
 
 $sans-stack: (
-        'Maven Pro',
+        'Roboto',
         -apple-system,
         BlinkMacSystemFont,
         'Futura',
@@ -26,7 +26,9 @@ $base-font-size: 16px;
 body {
   font-family: $sans-stack;
   font-size: $base-font-size;
+  font-weight: 300;
   quotes: "“" "”" "‘" "’";
+  line-height: 140%;
 }
 
 em {
@@ -34,5 +36,5 @@ em {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 400;
 }

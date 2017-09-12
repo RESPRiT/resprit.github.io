@@ -5,25 +5,31 @@
         for section in public._data.education
             dt.resume_item-summary
                 .resume_item-title
-                    h3= section.school
+                    h3
+                        span #{section.school},
                         span= section.location
                         span.title-right= section.period
                 .resume_item-subtitle
-                    h4= section.degree
+                    h4
+                        em #{section.degree},
                         span= section.major
-                        span.title-right= section.gpa
-            dd.resume_item-description
-                ul.resume_item-list.list-inline
-                    strong Upper-division coursework:
-                    for course in section.coursework
-                        li= course.name
+                        span (#{section.status})
+                        if section.gpa
+                            span.title-right GPA: #{section.gpa}
+            if section.coursework
+                dd.resume_item-description
+                    //- ul.resume_item-list.list-inline
+                    span= 'Upper-division coursework: '
+                    for course, i in section.coursework
+                        span= course.name + (i < section.coursework.length - 1 ? ', ' : '')
     //- Work section
     h2.resume_title Work Experience
     dl.resume_section
         for section in public._data.work
             dt.resume_item-summary
                 .resume_item-title
-                    h3= section.position
+                    h3
+                        span #{section.position},
                         span= section.employer
                         span.title-right= section.period
             dd.resume_item-description
@@ -32,25 +38,22 @@
     h2.resume_title Projects
     dl.resume_section
         for section in public._data.projects
-            dt.resume_item-summary
-                .resume_item-title
-                    h3= section.name
-                        span= section.location
-                .resume_item-subtitle
-                    h4
-                        for tool in section.tools
-                            span= tool
-            dd.resume_item-description
-                p= section.description
+            p.resume_item-block
+                //- Unfortunate, hack-y, whitespace
+                span #{section.name},
+                span= ` ${section.location} `
+                span (
+                for tool, i in section.tools
+                    span= tool + (i < section.tools.length - 1 ? ',' : '')
+                span= ') '
+                span &mdash;
+                span= ` ${section.description}`
     //- Skills section
     h2.resume_title Skills
     dl.resume_section
         for section, name in public._data.skills
-            dt.resume_item-summary
-                .resume_item-title
-                    h3= name
-            dd.resume_item-description
-                ul.resume_item-list.list-inline
-                    for skill in section
-                        li= skill
-
+            ul.resume_item-list.list-inline
+                li #{name}:
+                for skill, i in section
+                    //- Cute way to exclude last item
+                    li= skill + (i < section.length - 1 ? ',' : '')
