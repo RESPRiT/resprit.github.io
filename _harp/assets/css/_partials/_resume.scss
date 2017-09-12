@@ -1,7 +1,25 @@
 @import '_base'; // globals
 
+
 .resume {
   margin-bottom: $spacer;
+
+  &_container {
+    @extend .container;
+    padding: $spacer * 4;
+    position: relative;
+
+    &::after {
+      content: '';
+      background-image: linear-gradient($blue 25%, white);
+      height: 100%;
+      position: absolute;
+      top: 5%;
+      width: 2%;
+      right: -2%;
+      z-index: 100;
+    }
+  }
 
   &_header {
     &-title {

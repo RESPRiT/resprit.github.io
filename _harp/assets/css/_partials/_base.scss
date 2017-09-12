@@ -4,10 +4,15 @@ $blue: #96a4d7;
 
 $spacer: 20px;
 
+main {
+  background-image: linear-gradient(lighten($blue, 15%), white);
+}
+
 .container {
   max-width: 860px;
   margin: 0 auto;
   padding: $spacer;
+  background-color: white;
 }
 
 // Misc Utility

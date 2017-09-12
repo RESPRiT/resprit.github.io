@@ -1,4 +1,4 @@
-.container
+.resume_container
     //- Header
     h1.resume_header-title Harrison Kwik
     h2.resume_header-subtitle
@@ -48,6 +48,8 @@
                 span #{section.name},
                 if section.location
                     span= ` ${section.location} `
+                else
+                    span= ' '
                 span (
                 for tool, i in section.tools
                     span= tool + (i < section.tools.length - 1 ? ', ' : '')
