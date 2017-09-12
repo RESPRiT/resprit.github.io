@@ -1,4 +1,9 @@
 .container
+    //- Header
+    h1.resume_header-title Harrison Kwik
+    h2.resume_header-subtitle
+        for item, i in public._data.info
+            span!= item + (i < public._data.info.length - 1 ? ' &mdash; ' : '')
     //- Education section
     h2.resume_title Education
     dl.resume_section
@@ -41,10 +46,11 @@
             p.resume_item-block
                 //- Unfortunate, hack-y, whitespace
                 span #{section.name},
-                span= ` ${section.location} `
+                if section.location
+                    span= ` ${section.location} `
                 span (
                 for tool, i in section.tools
-                    span= tool + (i < section.tools.length - 1 ? ',' : '')
+                    span= tool + (i < section.tools.length - 1 ? ', ' : '')
                 span= ') '
                 span &mdash;
                 span= ` ${section.description}`

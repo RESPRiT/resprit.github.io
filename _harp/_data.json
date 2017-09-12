@@ -1,4 +1,9 @@
 {
+  "info": [
+    "(425) XXX-XXXX",
+    "kwikh [at] uw [dot] edu",
+    "github.com/RESPRiT"
+  ],
   "education": [
     {
       "school": "University of Washington",
@@ -76,7 +81,22 @@
         "Node.js",
         "Mapbox"
       ],
-      "description": "a UW campus map tool that can visualize student populations across campus using heatmaps and charts, and provide building information for a student’s personal class schedule "
+      "description": "a UW campus map tool that can visualize student populations across campus using heatmaps and charts, and provide building information for a student’s personal class schedule"
+    },
+    {
+      "name": "toamema",
+      "tools": [
+        "Python"
+      ],
+      "description": "a Reddit bot built using the Reddit and Imgur APIs that automates various moderator tasks, and generates and uploads images of messages coded with the Matoran cipher"
+    },
+    {
+      "name": "Bork",
+      "location": "Introduction to HCI (CSE 440)",
+      "tools": [
+        "Design project"
+      ],
+      "description": "a mobile application that uses a specialized dog collar to relay data to the owner, designed and prototyped using user research and iteration"
     }
   ],
   "skills": {
