@@ -45,9 +45,9 @@
         for section in public._data.projects
             p.resume_item-block
                 //- Unfortunate, hack-y, whitespace
-                span #{section.name},
+                span #{section.name}
                 if section.location
-                    span= ` ${section.location} `
+                    span= `, ${section.location} `
                 else
                     span= ' '
                 span (
