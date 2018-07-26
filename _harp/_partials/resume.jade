@@ -1,9 +1,14 @@
 .resume_container
     //- Header
+    div.resume_photo
+        img(src="assets/img/me.jpg")
     h1.resume_header-title Harrison Kwik
     h2.resume_header-subtitle
         for item, i in public._data.info
             span!= item + (i < public._data.info.length - 1 ? ' &mdash; ' : '')
+    div.resume_header-lastchanged Last updated #{public._data.meta.updated}
+        if public._data.meta.construction
+            span &mdash; Content still under construction
     //- Education section
     h2.resume_title Education
     dl.resume_section
@@ -18,7 +23,6 @@
                     h4
                         em #{section.degree},
                         span= section.major
-                        span (#{section.status})
                         if section.gpa
                             span.title-right GPA: #{section.gpa}
             if section.coursework
@@ -34,28 +38,51 @@
             dt.resume_item-summary
                 .resume_item-title
                     h3
-                        span #{section.position},
-                        span= section.employer
+                        span #{section.employer},
+                        span= section.position
                         span.title-right= section.period
+            ol.resume_item-bullet
+                for bullet in section.description
+                    li
+                        span= bullet
+    //- Publications section
+    h2.resume_title Publications
+    dl.resume_section
+        for section in public._data.publications
+            dt.resume_item-summary
+                .resume_item-title
+                    h3
+                        span= section.authors
+                        span= section.title
+                        span= `(${section.time})`
+                p= section.location
             dd.resume_item-description
                 p= section.description
     //- Projects section
     h2.resume_title Projects
     dl.resume_section
         for section in public._data.projects
-            p.resume_item-block
-                //- Unfortunate, hack-y, whitespace
-                span #{section.name}
-                if section.location
-                    span= `, ${section.location} `
-                else
-                    span= ' '
-                span (
-                for tool, i in section.tools
-                    span= tool + (i < section.tools.length - 1 ? ', ' : '')
-                span= ') '
-                span &mdash;
-                span= ` ${section.description}`
+            dt.resume_item-summary
+                .resume_item-title
+                    h3
+                        if section.location
+                            span #{section.name},
+                            span= `${section.location}`
+                        else
+                            span= section.name
+                        span (#{section.summary})
+                        if section.url
+                            span.it &mdash; #{section.url}
+                        span.title-right= section.period
+            ol.resume_item-bullet
+                for bullet in section.description
+                    li
+                        span= bullet
+                    li.it
+                        span Technologies: 
+                        for tool, i in section.tools
+                            span= tool + (i < section.tools.length - 1 ? ', ' : '')
+
     //- Skills section
     h2.resume_title Skills
     dl.resume_section

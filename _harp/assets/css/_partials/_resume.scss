@@ -21,6 +21,24 @@
     }
   }
 
+  &_photo {
+    height: 10vw;
+    width: 10vw;
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 75px;
+    min-width: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+
+    img {
+      height: 10.5vw;
+      max-height: 155px;
+      min-height: 80px;
+    }
+  }
+
   &_header {
     &-title {
       text-align: center;
@@ -34,6 +52,13 @@
       font-size: 1.15rem;
       margin-bottom: $spacer / 2;
     }
+
+    &-lastchanged {
+      text-align: center;
+      font-size: .75rem;
+      font-style: italic;
+      color: $grey;
+    }
   }
 
   &_title {
@@ -45,7 +70,7 @@
 
     &::after {
       content: '';
-      background-image: linear-gradient(to right, lighten($blue, 10%), lighten($blue, 20%));
+      background-image: linear-gradient(to right, lighten($blue, 10%), lighten($blue, 15%));
       height: 1px;
       position: absolute;
       bottom: -30%;
@@ -83,6 +108,16 @@
   &_item-description {
     padding-left: $spacer * 1.5;
     margin-bottom: $spacer;
+  }
+
+  &_item-bullet {
+    padding-left: $spacer * 1.25;
+    margin-bottom: $spacer;
+    list-style: disc;
+    color: $blue;
+    span {
+      color: $black;
+    }
   }
 
   &_item-block {

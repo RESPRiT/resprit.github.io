@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "harp server _harp 9000",
-    "build": "harp compile _harp build",
-    "deploy": "gh-pages -d build -b master",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "harp compile _harp build && cp CNAME build/CNAME",
+    "deploy": "npm run build && gh-pages -d build -b master && rm -rf build"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,11 @@
 {
+  "meta": {
+    "version": "0.0.1",
+    "updated": "July, 2018",
+    "construction": true
+  },
   "info": [
-    "(425) XXX-XXXX",
+    "Seattle, WA",
     "kwikh [at] uw [dot] edu",
     "github.com/RESPRiT"
   ],
@@ -10,10 +15,24 @@
       "location": "Seattle, WA",
       "degree": "Bachelor of Science",
       "major": "Computer Science",
-      "status": "current",
-      "period": "June 2018 (Expected)",
-      "gpa": "3.73, Dean's List",
+      "period": "June 2018",
+      "gpa": "3.75, Cum Laude",
       "coursework": [
+        {
+          "name": "Advance Human-Computer Interaction (Capstone)"
+        },
+        {
+          "name": "Introduction to Human-Computer Interaction"
+        },
+        {
+          "name": "Data Visualization"
+        },
+        {
+          "name": "Introduction to Compiler Construction"
+        },
+        {
+          "name": "Introduction to Artificial Intelligence"
+        },
         {
           "name": "Data Structures and Parallelism"
         },
@@ -24,9 +43,6 @@
           "name": "Programming Languages"
         },
         {
-          "name": "Introduction to Human-Computer Interaction"
-        },
-        {
           "name": "Discrete Mathematics"
         },
         {
@@ -34,88 +50,104 @@
         },
         {
           "name": "The Hardware and Software Interface"
+        },
+        {
+          "name": "Computer Security"
+        },
+        {
+          "name": "Systems Programming"
         }
       ]
-    },
-    {
-      "school": "University of Washington",
-      "location": "Seattle, WA",
-      "degree": "Master of Science",
-      "major": "Computer Science & Engineering",
-      "status": "admitted",
-      "period": "June 2019 (Expected)"
     }
   ],
   "work": [
     {
+      "employer": "Versive",
+      "position": "Software Engineer Intern",
+      "description": [],
+      "period": "June 2018 - Sept 2018"
+    },
+    {
+      "employer": "Allen Institute for Artificial Intelligence",
+      "position": "Software Engineer Intern",
+      "description": [],
+      "period": "Oct 2018 - Apr 2019"
+    },
+    {
       "employer": "Code and Cognition Lab",
-      "position": "Research Assistant",
-      "description": "Building intelligent computer science tutoring systems using modern web technologies, including JavaScript/ES6, React, Flow, and Sass. Independently conducting research on CS student experiences, involving literature review, study design and preparation, and research paper drafting and writing. Assisting with research projects and publications through data analysis and research paper review.",
+      "position": "Undergraduate Researcher",
+      "description": ["Building intelligent computer science tutoring systems using modern web technologies, including JavaScript/ES6, React, Flow, and Sass.", "Independently conducting research on CS student experiences, involving literature review, study design and preparation, and research paper drafting and writing.", "Assisting with research projects and publications through data analysis and research paper review."],
       "period": "Sept 2016 - Present"
     },
     {
       "employer": "CSE Department",
       "position": "Teaching Assistant",
-      "description": "Developing curriculum and assignments for recently admitted UW Computer Science and Engineering transfer students. Lecturing course material to students, and facilitating assistance for academic and cultural struggles faced by transfer students within CSE.",
-      "period": "Mar 2017 - Present"
+      "description": ["Developed curriculum and assignments for recently admitted UW Computer Science and Engineering transfer students. Taught course material to students, and facilitated assistance for academic and cultural struggles faced by transfer students within CSE."],
+      "period": "Mar 2017 - June 2018"
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Harrison Kwik, Benjamin Xie, and Andrew J. Ko.",
+      "title": "Experiences of Computer Science Transfer Students",
+      "location": "ACM International Computing Education Research Conference (ICER)",
+      "time": "2018",
+      "description": ""
     }
   ],
   "projects": [
     {
       "name": "koconut",
       "location": "Code and Cognition Lab",
+      "summary": "Full-stack Web Application",
       "tools": [
         "JavaScript",
         "React",
         "Flow",
         "Sass"
       ],
-      "description": "an intelligent CS1 (introductory computer science) tutor which models and tests student knowledge through dynamic concept selection and problem assessment"
+      "description": ["An intelligent CS1 (introductory computer science) tutor which models and tests student knowledge through dynamic concept selection and problem assessment"]
     },
     {
       "name": "DubMaps",
       "location": "DubHacks 2016",
+      "summary": "Front-end Web Application",
       "tools": [
         "JavaScript",
         "jQuery",
         "Node.js",
         "Mapbox"
       ],
-      "description": "a UW campus map tool that can visualize student populations across campus using heatmaps and charts, and provide building information for a student’s personal class schedule"
+      "description": ["A UW campus map tool that can visualize student populations across campus using heatmaps and charts, and provide building information for a student’s personal class schedule"]
     },
     {
       "name": "toamema",
+      "summary": "Python Bot",
+      "url": "https://github.com/RESPRiT/toamema",
       "tools": [
         "Python"
       ],
-      "description": "a Reddit bot built using the Reddit and Imgur APIs that automates various moderator tasks, and generates and uploads images of messages coded with the Matoran cipher"
-    },
-    {
-      "name": "Bork",
-      "location": "Introduction to HCI (CSE 440)",
-      "tools": [
-        "Design project"
-      ],
-      "description": "a mobile application that uses a specialized dog collar to relay data to the owner, designed and prototyped using user research and iteration"
+      "description": ["A Reddit bot built using the Reddit and Imgur APIs that automates various moderator tasks, and generates and uploads images of messages coded with the Matoran cipher"]
     }
   ],
   "skills": {
     "Languages": [
-      "JavaScript/ES6",
+      "JavaScript",
       "Python",
       "Java",
       "C/C++",
       "Ruby",
-      "Racket",
       "Bash",
-      "HTML5/CSS3"
+      "HTML/CSS"
     ],
-    "Tools": [
+    "Tools and Frameworks": [
       "React",
+      "Vue",
       "Node.js",
       "Express",
       "Flow",
       "Sass",
+      "Django",
       "VCS (Git, SVN)",
       "Unix/Linux",
       "LaTeX"

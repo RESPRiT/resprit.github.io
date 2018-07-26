@@ -1,6 +1,8 @@
 @import "typography";
 
 $blue: #96a4d7;
+$grey: grey;
+$black: black;
 
 $spacer: 20px;
 
@@ -28,4 +30,8 @@ main {
 .title-right {
   float: right;
   padding-right: 0;
+}
+
+.it {
+  font-style: italic;
 }
