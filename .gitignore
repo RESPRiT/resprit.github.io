@@ -1,2 +1,4 @@
 *.xml
 .idea
+.vscode
+/node_modules
