@@ -6,7 +6,7 @@
 
   &_container {
     @extend .container;
-    padding: $spacer * 4;
+    padding: $spacer * 2 $spacer * 4;
     position: relative;
 
     &::after {
@@ -131,6 +131,13 @@
     li {
       white-space: pre-wrap;
     }
+  }
+
+  &_footer {
+    text-align: center;
+    font-style: italic;
+    font-size: .75rem;
+    color: $grey;
   }
 }
 

@@ -72,7 +72,7 @@
                             span= section.name
                         span (#{section.summary})
                         if section.url
-                            span.it &mdash; #{section.url}
+                            i &mdash; #{section.url}
                         span.title-right= section.period
             ol.resume_item-bullet
                 for bullet in section.description
@@ -92,3 +92,7 @@
                 for skill, i in section
                     //- Cute way to exclude last item
                     li= skill + (i < section.length - 1 ? ',' : '')
+div.resume_footer Built using 
+    a(href="http://harpjs.com/") Harp
+    span , code lives on 
+    a(href="https://github.com/RESPRiT/resprit.github.io") GitHub
