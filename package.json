@@ -6,7 +6,7 @@
   "scripts": {
     "start": "harp server 9000",
     "build": "harp compile _harp build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
