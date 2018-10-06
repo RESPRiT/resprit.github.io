@@ -9,59 +9,55 @@
     "kwikh [at] uw [dot] edu",
     "github.com/RESPRiT"
   ],
-  "education": [
-    {
-      "school": "University of Washington",
-      "location": "Seattle, WA",
-      "degree": "Bachelor of Science",
-      "major": "Computer Science",
-      "period": "June 2018",
-      "gpa": "3.75, Cum Laude",
-      "coursework": [
-        {
-          "name": "Advance Human-Computer Interaction (Capstone)"
-        },
-        {
-          "name": "Introduction to Human-Computer Interaction"
-        },
-        {
-          "name": "Data Visualization"
-        },
-        {
-          "name": "Introduction to Compiler Construction"
-        },
-        {
-          "name": "Introduction to Artificial Intelligence"
-        },
-        {
-          "name": "Data Structures and Parallelism"
-        },
-        {
-          "name": "Software Design and Implementation"
-        },
-        {
-          "name": "Programming Languages"
-        },
-        {
-          "name": "Discrete Mathematics"
-        },
-        {
-          "name": "Probability and Statistics"
-        },
-        {
-          "name": "The Hardware and Software Interface"
-        },
-        {
-          "name": "Computer Security"
-        },
-        {
-          "name": "Systems Programming"
-        }
-      ]
-    }
-  ],
-  "work": [
-    {
+  "education": [{
+    "school": "University of Washington",
+    "location": "Seattle, WA",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "period": "June 2018",
+    "gpa": "3.75, Cum Laude",
+    "coursework": [{
+        "name": "Advance Human-Computer Interaction (Capstone)"
+      },
+      {
+        "name": "Introduction to Human-Computer Interaction"
+      },
+      {
+        "name": "Data Visualization"
+      },
+      {
+        "name": "Introduction to Compiler Construction"
+      },
+      {
+        "name": "Introduction to Artificial Intelligence"
+      },
+      {
+        "name": "Data Structures and Parallelism"
+      },
+      {
+        "name": "Software Design and Implementation"
+      },
+      {
+        "name": "Programming Languages"
+      },
+      {
+        "name": "Discrete Mathematics"
+      },
+      {
+        "name": "Probability and Statistics"
+      },
+      {
+        "name": "The Hardware and Software Interface"
+      },
+      {
+        "name": "Computer Security"
+      },
+      {
+        "name": "Systems Programming"
+      }
+    ]
+  }],
+  "work": [{
       "employer": "Versive",
       "position": "Software Engineer Intern",
       "description": [],
@@ -76,42 +72,56 @@
     {
       "employer": "Code and Cognition Lab",
       "position": "Undergraduate Researcher",
-      "description": ["Building intelligent computer science tutoring systems using modern web technologies, including JavaScript/ES6, React, Flow, and Sass.", "Independently conducting research on CS student experiences, involving literature review, study design and preparation, and research paper drafting and writing.", "Assisting with research projects and publications through data analysis and research paper review."],
+      "description": ["Building intelligent computer science tutoring systems using modern web technologies", "Independently conducting research on CS student experiences, involving literature review, study design and preparation, and research paper drafting and writing", "Assisting with research projects and publications through data analysis and research paper review"],
       "period": "Sept 2016 - Present"
     },
     {
       "employer": "CSE Department",
       "position": "Teaching Assistant",
-      "description": ["Developed curriculum and assignments for recently admitted UW Computer Science and Engineering transfer students. Taught course material to students, and facilitated assistance for academic and cultural struggles faced by transfer students within CSE."],
+      "description": ["Developed curriculum and assignments for recently admitted Computer Science and Engineering transfer students", "Taught course material to students, and facilitated assistance for academic and cultural struggles faced by transfer students within CSE"],
       "period": "Mar 2017 - June 2018"
     }
   ],
-  "publications": [
-    {
-      "authors": "Harrison Kwik, Benjamin Xie, and Andrew J. Ko.",
-      "title": "Experiences of Computer Science Transfer Students",
-      "location": "ACM International Computing Education Research Conference (ICER)",
-      "time": "2018",
-      "description": ""
-    }
-  ],
-  "projects": [
-    {
+  "publications": [{
+    "authors": "Harrison Kwik, Benjamin Xie, and Andrew J. Ko.",
+    "title": "Experiences of Computer Science Transfer Students",
+    "location": "ACM International Computing Education Research Conference (ICER)",
+    "time": "2018",
+    "description": ""
+  }],
+  "projects": [{
       "name": "koconut",
       "location": "Code and Cognition Lab",
       "summary": "Full-stack Web Application",
+      "period": "Spring 2017 - Summer 2017",
       "tools": [
         "JavaScript",
         "React",
         "Flow",
+        "Sass",
+        "Node.js",
+        "Express"
+      ],
+      "description": ["An intelligent CS1 (introductory computer science) tutor which models and tests student knowledge using Bayesian knowledge tracing and problem assessment", "Designed the project architecture and specification, and created written and generated internal documentation", "Implemented the project frontend, developing the user interface and experience", "Implemented backend models for user knowledge, and server-side code execution and testing to evaluate student responses"]
+    },
+    {
+      "name": "TogetherWe",
+      "location": "DubHacks 2017",
+      "summary": "Front-end Web Application",
+      "tools": [
+        "JavaScript",
+        "React",
+        "Bootstrap",
         "Sass"
       ],
-      "description": ["An intelligent CS1 (introductory computer science) tutor which models and tests student knowledge through dynamic concept selection and problem assessment"]
+      "description": [
+
+      ]
     },
     {
       "name": "DubMaps",
       "location": "DubHacks 2016",
-      "summary": "Front-end Web Application",
+      "summary": "Full-stack Web Application",
       "tools": [
         "JavaScript",
         "jQuery",

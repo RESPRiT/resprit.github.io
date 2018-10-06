@@ -78,10 +78,10 @@
                 for bullet in section.description
                     li
                         span= bullet
-                    li.it
-                        span Technologies: 
-                        for tool, i in section.tools
-                            span= tool + (i < section.tools.length - 1 ? ', ' : '')
+                li.it
+                    span Technologies: 
+                    for tool, i in section.tools
+                        span= tool + (i < section.tools.length - 1 ? ', ' : '')
 
     //- Skills section
     h2.resume_title Skills
@@ -92,7 +92,10 @@
                 for skill, i in section
                     //- Cute way to exclude last item
                     li= skill + (i < section.length - 1 ? ',' : '')
-div.resume_footer Built using 
+div.resume_footer Designed and built by Harrison Kwik using 
     a(href="http://harpjs.com/") Harp
     span , code lives on 
     a(href="https://github.com/RESPRiT/resprit.github.io") GitHub
+
+div.resume_minifooter Inspired by Sarah Lim's amazing 
+    a(href="http://sarahlim.com/") personal website
