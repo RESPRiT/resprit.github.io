@@ -53,6 +53,10 @@ a {
   font-size: .75em;
   z-index: 1;
 
+  @media (max-device-width: 900px) {
+    display: none;
+  }
+  
   @media (max-width: 900px) {
     display: none;
   }

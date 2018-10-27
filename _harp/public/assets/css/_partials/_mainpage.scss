@@ -7,7 +7,6 @@
 }
 
 .homepage {
-  padding-top: 150px;
   height: 100%;
   width: 100%;
   min-height: 70vh;
@@ -15,19 +14,26 @@
   display: flex;
   justify-content: center;
   align-items: top;
+  padding-top: 150px;
+
+  @media (max-device-width: 900px) {
+    padding-top: 50px;
+  }
   
   &-container {
     width: 85vw;
     max-width: 800px;
     background-color: white;
     display: grid;
-
-    @media (min-device-width: 900px) {
-      grid-template-columns: 350px auto 450px;
-      grid-template-rows: 50px auto;
-    }
+    grid-template-columns: 350px auto 450px;
+    grid-template-rows: 50px auto;
 
     @media (max-device-width: 900px) {
+      grid-template-columns: auto;
+      grid-template-rows: 50px 50px 50px auto;
+    }
+    
+    @media (max-width: 900px) {
       grid-template-columns: auto;
       grid-template-rows: 50px 50px 50px auto;
     }
@@ -95,6 +101,20 @@
         float: left;
       }
     }
+    
+    @media (max-width: 900px) {
+      li {
+        &:not(:last-child) {
+          padding-right: 5px;
+
+          &::after {
+            content: '|';
+            padding-left: 5px;
+          }
+        }
+        float: left;
+      }
+    }
   }
   
   &-section {
@@ -106,12 +126,15 @@
     
     align-self: end;
     
-    @media (min-device-width: 900px) {
-      grid-column: 3 / 4;
-      grid-row: 1 / 2;
-    }
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
 
     @media (max-device-width: 900px) {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+    
+    @media (max-width: 900px) {
       grid-column: 1 / 2;
       grid-row: 3 / 4;
     }
@@ -126,12 +149,15 @@
     font-size: 1em;
     z-index: 1;
     
-    @media (min-device-width: 900px) {
-      grid-column: 3 / 4;
-      grid-row: 2 / 3;
-    }
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
 
     @media (max-device-width: 900px) {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+    
+    @media (max-width: 900px) {
       grid-column: 1 / 2;
       grid-row: 4 / 5;
     }
@@ -180,16 +206,17 @@
       background-color: #ccc1ec;
       height: 75px;
       width: 325px;
+      right: -50px;
       bottom: -75px;
       z-index: -1;
       position: absolute;
       transform: rotate(-15deg);
-
-      @media (min-device-width: 900px) {
-        right: -50px;
-      }
       
       @media (max-device-width: 900px) {
+        right: -25px;
+      }
+      
+      @media (max-width: 900px) {
         right: -25px;
       }
     }
