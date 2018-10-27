@@ -5,10 +5,11 @@
   margin-bottom: $spacer;
 
   &_container {
-    @extend .container;
+    @extend .page_container;
     padding: $spacer * 2 $spacer * 4;
     position: relative;
 
+    /*
     &::after {
       content: '';
       background-image: linear-gradient($blue 25%, white);
@@ -19,6 +20,7 @@
       right: -2%;
       z-index: 100;
     }
+    */
   }
 
   &_photo {

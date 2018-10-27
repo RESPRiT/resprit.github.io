@@ -6,11 +6,21 @@ $black: black;
 
 $spacer: 20px;
 
-main {
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+  .resume_main {
   background-image: linear-gradient(lighten($blue, 15%), white);
 }
 
-.container {
+.page_container {
   max-width: 860px;
   margin: 0 auto;
   padding: $spacer;
@@ -34,4 +44,24 @@ main {
 
 .it {
   font-style: italic;
+}
+
+.footer {
+  width: 100vw;
+  padding-top: 50px;
+  text-align: center;
+  font-size: .75em;
+  z-index: 1;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+::selection {
+  background: rgb(231, 145, 174);
+}
+
+::-moz-selection {
+  background: rgb(231, 145, 174);
 }

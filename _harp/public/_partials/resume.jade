@@ -4,15 +4,15 @@
         img(src="assets/img/me.jpg")
     h1.resume_header-title Harrison Kwik
     h2.resume_header-subtitle
-        for item, i in public._data.info
-            span!= item + (i < public._data.info.length - 1 ? ' &mdash; ' : '')
-    div.resume_header-lastchanged Last updated #{public._data.meta.updated}
-        if public._data.meta.construction
+        for item, i in info
+            span!= item + (i < info.length - 1 ? ' &mdash; ' : '')
+    div.resume_header-lastchanged Last updated #{meta.updated}
+        if meta.construction
             span &mdash; Content still under construction
     //- Education section
     h2.resume_title Education
     dl.resume_section
-        for section in public._data.education
+        for section in education
             dt.resume_item-summary
                 .resume_item-title
                     h3
@@ -34,7 +34,7 @@
     //- Work section
     h2.resume_title Work Experience
     dl.resume_section
-        for section in public._data.work
+        for section in work
             dt.resume_item-summary
                 .resume_item-title
                     h3
@@ -48,20 +48,20 @@
     //- Publications section
     h2.resume_title Publications
     dl.resume_section
-        for section in public._data.publications
+        for section in publications
             dt.resume_item-summary
                 .resume_item-title
                     h3
-                        span= section.authors
                         span= section.title
-                        span= `(${section.time})`
-                p= section.location
+                p= section.authors
+                    span= ` (${section.time})`
+                em= section.location
             dd.resume_item-description
-                p= section.description
+                em= section.description
     //- Projects section
     h2.resume_title Projects
     dl.resume_section
-        for section in public._data.projects
+        for section in projects
             dt.resume_item-summary
                 .resume_item-title
                     h3
@@ -86,16 +86,9 @@
     //- Skills section
     h2.resume_title Skills
     dl.resume_section
-        for section, name in public._data.skills
+        for section, name in skills
             ul.resume_item-list.list-inline
                 li #{name}:
                 for skill, i in section
                     //- Cute way to exclude last item
                     li= skill + (i < section.length - 1 ? ',' : '')
-div.resume_footer Designed and built by Harrison Kwik using 
-    a(href="http://harpjs.com/") Harp
-    span , code lives on 
-    a(href="https://github.com/RESPRiT/resprit.github.io") GitHub
-
-div.resume_minifooter Inspired by Sarah Lim's amazing 
-    a(href="http://sarahlim.com/") personal website

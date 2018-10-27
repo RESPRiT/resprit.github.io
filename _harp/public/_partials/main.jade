@@ -1,0 +1,22 @@
+.container
+  .homepage
+    .homepage-container
+      .homepage-name Harrison Kwik
+      .homepage-menu
+        ul
+          li
+            a(href='/') home
+          li
+            a(href='/about') about
+          li
+            a(href='/research') research
+          li
+            a(href='/resume' target='_blank' rel='noopener noreferrer') resume
+          li
+            a(href='https://github.com/RESPRiT') github
+          li
+            a(href='https://twitter.com/HarrisonKwik') twitter
+      .homepage-section #{title}
+      .homepage-content
+        .homepage-content-body 
+          != yield
