@@ -1,5 +1,5 @@
 I am a recent graduate of the [University of Washington](https://www.washington.edu/), where I earned a [B.S. in Computer Science](https://www.cs.washington.edu/).
-Currently, I am a software engineering intern at the [Allen Institute for Artificial Intelligence](https://www.allenai.org/), where I work on [Semantic Scholar](https://www.semanticscholar.org/).
+Currently, I am a software engineering intern at the [Allen Institute for Artificial Intelligence](https://allenai.org/), where I work on [Semantic Scholar](https://www.semanticscholar.org/).
 Previously, I was a software engineering intern at [Versive](https://www.versive.com/).
 
 <br/>
