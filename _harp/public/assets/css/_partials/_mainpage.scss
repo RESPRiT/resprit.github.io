@@ -2,22 +2,26 @@
 
 .container {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   color: #232323;
 }
 
 .homepage {
   height: 100%;
   width: 100%;
-  min-height: 70vh;
+  min-height: 60vh;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: top;
-  padding-top: 150px;
+  padding-top: 12.5vh;
 
   @media (max-device-width: 900px) {
     padding-top: 50px;
+  }
+
+  @media(min-height: 900px) {
+    padding-top: 15vh;
   }
   
   &-container {
@@ -168,9 +172,17 @@
       z-index: 1;
 
       h1 {
-        font-size: 1.25em;
+        font-size: 1.15em;
         font-family: $serif-stack;
         font-weight: 400;
+      }
+
+      h2 {
+        font-size: .75em;
+        font-family: $sans-stack;
+        font-weight: 300;
+        line-height: 1.5em;
+        padding-bottom: 1em;
       }
 
       hr {
@@ -183,8 +195,8 @@
         content: '— ';
       }
       
-      em {
-        font-style: normal;
+      del {
+        text-decoration: none;
         background-color: #fff89d;
       }
 
@@ -207,7 +219,7 @@
       height: 75px;
       width: 325px;
       right: -50px;
-      bottom: -75px;
+      bottom: -50px;
       z-index: -1;
       position: absolute;
       transform: rotate(-15deg);

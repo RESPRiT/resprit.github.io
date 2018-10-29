@@ -6,7 +6,7 @@ After high school, I attended [DigiPen Institute of Technology](https://www.digi
 
 <br/>
 
-I enjoy a myriad of hobbies that may ebb and flow over time. Historically, I like to partake in (in no particular order): hiking, gaming, music, art, photography, design, web development.
+I enjoy a myriad of hobbies that may ebb and flow over time. Historically, I like to partake in (in no particular order): hiking, gaming, music, art, photography, design, keyboards, web development.
 
 <br/>
 

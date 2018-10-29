@@ -6,6 +6,10 @@ $black: black;
 
 $spacer: 20px;
 
+html {
+  overflow-y: scroll;
+}
+
 a {
   font-weight: 400;
   text-decoration: none;
@@ -47,8 +51,9 @@ a {
 }
 
 .footer {
-  width: 100vw;
-  padding-top: 50px;
+  width: 100%;
+  padding-top: 15vh;
+  padding-bottom: 7vh;
   text-align: center;
   font-size: .75em;
   z-index: 1;
