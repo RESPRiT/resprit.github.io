@@ -20,7 +20,7 @@ a {
   }
 }
 
-  .resume_main {
+.resume_main {
   background-image: linear-gradient(lighten($blue, 15%), white);
 }
 
@@ -51,8 +51,9 @@ a {
 }
 
 .footer {
+  position: relative;
   width: 100%;
-  padding-top: 15vh;
+  padding-top: 5vh;
   padding-bottom: 7vh;
   text-align: center;
   font-size: .75em;
