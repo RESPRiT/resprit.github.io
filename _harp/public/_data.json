@@ -28,7 +28,7 @@
       "period": "June 2018",
       "gpa": "3.75",
       "coursework": [{
-          "name": "Advance Human-Computer Interaction (Capstone)"
+          "name": "Advanced Human-Computer Interaction (Capstone)"
         },
         {
           "name": "Introduction to Human-Computer Interaction"
@@ -75,17 +75,16 @@
         "period": "Oct 2018 - Present"
       },
       {
-        "employer": "Versive",
-        "position": "Software Engineer Intern",
-        "description": ["Worked in a full-stack development environment on the online team", "Developed front-end components for consumer-facing interfaces, and built API features for new customer interactions", "Integrated documentation generation into the build process"],
-        "period": "June 2018 - Sept 2018"
-      },
-
-      {
         "employer": "Code and Cognition Lab",
         "position": "Undergraduate Researcher",
         "description": ["Built intelligent computer science tutoring systems using modern web technologies", "Independently conducted research on CS transfer student experiences, resulting in a first-author publication"],
         "period": "Sept 2016 - Present"
+      },
+      {
+        "employer": "Versive",
+        "position": "Software Engineer Intern",
+        "description": ["Worked in a full-stack development environment on the online team", "Developed front-end components for consumer-facing interfaces, and built API features for new customer interactions", "Integrated documentation generation into the build process"],
+        "period": "June 2018 - Sept 2018"
       },
       {
         "employer": "CSE Department",
@@ -104,7 +103,7 @@
       "authors": "Benjamin Xie, Dastyni Loksa, Greg L. Nelson, Matthew J. Davidson, Dongsheng Dong, Harrison Kwik, Alex Hui Tan, Leanne Hwa, Min Li, Andrew J. Ko.",
       "title": "A Theory of Instruction for Introductory Programming Skills",
       "location": "Computer Science Education (CSE)",
-      "time": "2018, in revision",
+      "time": "2018, to appear",
       "description": ""
     }],
     "projects": [{
