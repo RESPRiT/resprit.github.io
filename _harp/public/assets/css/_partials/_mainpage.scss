@@ -14,16 +14,12 @@
   display: flex;
   justify-content: center;
   align-items: top;
-  padding-top: 12.5vh;
+  padding-top: 11vh;
 
   @media (max-device-width: 900px) {
     padding-top: 50px;
   }
 
-  @media(min-height: 900px) {
-    padding-top: 15vh;
-  }
-  
   &-container {
     width: 85vw;
     max-width: 800px;
@@ -201,15 +197,8 @@
       }
 
       img {
-        height: 10vw;
-        width: 10vw;
-        max-height: 150px;
-        max-width: 150px;
-        min-height: 75px;
-        min-width: 75px;
-        border-radius: 50%;
-        overflow: hidden;
-        margin: 0 auto;
+        height: 200px;
+        width: 200px;
       }
     }
 
