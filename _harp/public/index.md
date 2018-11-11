@@ -8,7 +8,7 @@ During my undergrad, I did research with [Andy Ko](http://faculty.washington.edu
 
 <br/>
 
-This year, ~~I am applying to Ph.D. programs to explore research options in computing education research and human-computer interaction~~. You can read about my research experience [here](/research).
+This year, <b>I am applying to Ph.D. programs to explore research options in computing education research and human-computer interaction</b>. You can read about my research experience [here](/research).
 
 <br/>
 

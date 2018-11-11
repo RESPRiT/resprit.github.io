@@ -166,19 +166,19 @@
       position: relative;
       text-align: justify;
       z-index: 1;
-
-      h1 {
-        font-size: 1.15em;
-        font-family: $serif-stack;
-        font-weight: 400;
-      }
-
-      h2 {
+      
+      blockquote {
         font-size: .75em;
         font-family: $sans-stack;
         font-weight: 300;
         line-height: 1.5em;
         padding-bottom: 1em;
+      }
+
+      h3 {
+        font-size: 1.15em;
+        font-family: $serif-stack;
+        font-weight: 400;
       }
 
       hr {
@@ -191,7 +191,7 @@
         content: '— ';
       }
       
-      del {
+      b {
         text-decoration: none;
         background-color: #fff89d;
       }
