@@ -14,4 +14,4 @@ Recently, in particular, I have been enjoying:
 
 - Fortnite
 - Pinball
-- Fashion/Sneakers
+- Sneakers
