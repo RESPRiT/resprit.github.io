@@ -1,8 +1,4 @@
-My research interests span computing education research and human-computer interaction. I am interested in **exploring novel techniques for improving how people learn in self-directed ways on the web**.
-
-<br/>
-
-I am co-advised by [Haoqi Zhang](http://users.eecs.northwestern.edu/~hq/) and [Nell O'Rourke](http://eleanorourke.com/) in the [Delta Lab](http://delta.northwestern.edu/).
+My research interests span computing education research and human-computer interaction. I am interested in **exploring novel techniques for improving how people learn in self-directed ways on the web**. I am co-advised by [Haoqi Zhang](http://users.eecs.northwestern.edu/~hq/) and [Nell O'Rourke](http://eleanorourke.com/) in the [Delta Lab](http://delta.northwestern.edu/).
 
 <br/>
 
