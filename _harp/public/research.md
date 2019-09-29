@@ -2,6 +2,10 @@ My research interests span computing education research and human-computer inter
 
 <br/>
 
+I am co-advised by [Haoqi Zhang](http://users.eecs.northwestern.edu/~hq/) and [Nell O'Rourke](http://eleanorourke.com/) in the [Delta Lab](http://delta.northwestern.edu/).
+
+<br/>
+
 During my undergrad, I worked with [Amy Ko](http://faculty.washington.edu/ajko/) in her [Code & Cognition Lab](http://faculty.washington.edu/ajko/students). I contributed to work on theories of learning process, intelligent programming tutors, and conducted independent research on transfer students in computer science. My independent research led to the publication of my first paper, [Experiences of Computer Science Transfer Students](https://dl.acm.org/citation.cfm?id=3231004), which I presented at [ICER 2018](https://icer.acm.org/) in Espoo, Finland.
 
 <br/>
