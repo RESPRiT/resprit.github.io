@@ -12,6 +12,6 @@ I enjoy a myriad of hobbies that may ebb and flow over time. Historically, I lik
 
 Recently, in particular, I have been enjoying:
 
-- Fortnite
+- [Fortnite](https://www.youtube.com/c/RESPRiT)
 - Pinball
 - Sneakers

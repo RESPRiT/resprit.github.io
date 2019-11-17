@@ -1,4 +1,4 @@
-My research interests span computing education research and human-computer interaction. I am interested in **exploring novel techniques for improving how people learn in self-directed ways on the web**. I am co-advised by [Haoqi Zhang](http://users.eecs.northwestern.edu/~hq/) and [Nell O'Rourke](http://eleanorourke.com/) in the [Delta Lab](http://delta.northwestern.edu/).
+My research interests span learning, computing education research, and human-computer interaction. I explore novel techniques for improving how people learn in self-directed ways. I am co-advised by [Haoqi Zhang](http://users.eecs.northwestern.edu/~hq/) and [Nell O'Rourke](http://eleanorourke.com/) in the [Delta Lab](http://delta.northwestern.edu/).
 
 <br/>
 
@@ -7,6 +7,8 @@ During my undergrad, I worked with [Amy Ko](http://faculty.washington.edu/ajko/)
 <br/>
 
 ### Publications
+
+> Dastyni Loksa, Benjamin Xie, **Harrison Kwik**, Amy J. Ko. 2020. Investigating Novices' In Situ Reflections on Their Programming Process. In _ACM Technical Symposium on Computer Science Education (SIGCSE), Research Track_, to appear.
 
 > Benjamin Xie, Dastyni Loksa, Greg L. Nelson, Matthew J. Davidson, Dongsheng Dong, **Harrison Kwik**, Alex Hui Tan, Leanne Hwa, Min Li, Amy J. Ko. 2019. A Theory of Instruction for Introductory Programming Skills. In _Computer Science Education._
 
