@@ -20,6 +20,6 @@
   "homepage": "https://github.com/RESPRiT/resprit.github.io#readme",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "harp": "^0.29.0"
+    "harp": "^0.40.2"
   }
 }
