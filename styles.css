@@ -50,3 +50,7 @@ ul > span {
   position: relative;
   left: -1rem;
 }
+
+li > a {
+  display: inline-block;
+}
