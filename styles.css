@@ -18,6 +18,13 @@ nav > ol {
 
 main {
   max-width: 32.5rem;
+  margin-bottom: 4rem;
+}
+
+main span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 figure {
@@ -27,6 +34,7 @@ figure {
 }
 
 figcaption {
+  color: darkslategrey;
   text-align: center;
 }
 
@@ -46,11 +54,54 @@ ul {
 }
 
 ul > span {
-  color: darkslategray;
+  color: darkslategrey;
   position: relative;
   left: -1rem;
 }
 
 li > a {
   display: inline-block;
+}
+
+li.therefore {
+  list-style: none;
+  position: relative;
+}
+
+li.therefore::before {
+  content: "∴";
+  position: absolute;
+  left: -2ch;
+}
+
+p {
+  position: relative;
+}
+
+p.blue::before {
+  content: "●";
+  color: slateblue;
+  position: absolute;
+  left: -3ch;
+}
+
+p.red::before {
+  content: "●";
+  color: firebrick;
+  position: absolute;
+  left: -3ch;
+}
+
+p.green::before {
+  content: "●";
+  color: mediumseagreen;
+  position: absolute;
+  left: -3ch;
+}
+
+p.grey::before {
+  content: "●";
+  color: lightgrey;
+  position: absolute;
+  left: -3ch;
 }
