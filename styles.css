@@ -21,7 +21,7 @@ main {
   margin-bottom: 4rem;
 }
 
-main span {
+main > span {
   width: 100%;
   display: flex;
   justify-content: center;
