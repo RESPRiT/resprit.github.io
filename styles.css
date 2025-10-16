@@ -48,6 +48,34 @@ a:visited:hover {
   background-color: rgb(85, 26, 139);
 }
 
+a[href^="/"][href$="/"] {
+  color: rgba(0, 98, 0, 1);
+}
+
+a[href^="/"][href$="/"]:hover {
+  color: white;
+  background-color: rgba(0, 98, 0, 1);
+}
+
+a[href^="/"][href$="/"]:visited {
+  color: rgba(20, 76, 67, 1);
+}
+
+a[href^="/"][href$="/"]:visited:hover {
+  color: white;
+  background-color: rgba(20, 76, 67, 1);
+}
+
+a[href*="http"]::after {
+  content: " \2197\fe0e";
+}
+
+@media (width <= 900px) {
+  a[href*="http"]::after {
+    font-size: 0.75rem;
+  }
+}
+
 ul {
   list-style-position: outside;
   padding-left: 2rem;
