@@ -17,7 +17,7 @@ nav > ol {
 }
 
 main {
-  max-width: 32.5rem;
+  width: 32.5rem;
   margin-bottom: 4rem;
 }
 
@@ -48,22 +48,22 @@ a:visited:hover {
   background-color: rgb(85, 26, 139);
 }
 
-a[href^="/"][href$="/"] {
-  color: rgba(0, 98, 0, 1);
+a[href^="/learning"] {
+  color: oklch(42.989% 0.14627 142.511);
 }
 
-a[href^="/"][href$="/"]:hover {
+a[href^="/learning"]:hover {
   color: white;
-  background-color: rgba(0, 98, 0, 1);
+  background-color: oklch(42.989% 0.14627 142.511);
 }
 
-a[href^="/"][href$="/"]:visited {
+a[href^="/learning"]:visited {
   color: rgba(20, 76, 67, 1);
 }
 
-a[href^="/"][href$="/"]:visited:hover {
+a[href^="/learning"]:visited:hover {
   color: white;
-  background-color: rgba(20, 76, 67, 1);
+  background-color: oklch(37.794% 0.05919 180.135);
 }
 
 a[href*="http"]::after {
@@ -100,6 +100,10 @@ li.therefore::before {
   content: "∴";
   position: absolute;
   left: -2ch;
+}
+
+ul.singleton {
+  padding-left: 2ch;
 }
 
 p {
