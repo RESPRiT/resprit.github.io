@@ -66,21 +66,39 @@ a:visited:hover {
 }
 
 a[href^="/learning"] {
-  color: oklch(42.989% 0.14627 142.511);
+  color: oklch(0.5454 0.1335 147.94);
 }
 
 a[href^="/learning"]:hover {
   color: white;
-  background-color: oklch(42.989% 0.14627 142.511);
+  background-color: oklch(0.5454 0.1335 147.94);
 }
 
 a[href^="/learning"]:visited {
-  color: rgba(20, 76, 67, 1);
+  color: oklch(0.3784 0.0934 154.95);
 }
 
 a[href^="/learning"]:visited:hover {
   color: white;
-  background-color: oklch(37.794% 0.05919 180.135);
+  background-color: oklch(0.3784 0.0934 154.95);
+}
+
+a[href^="/nowhere"] {
+  color: lightslategray;
+}
+
+a[href^="/nowhere"]:hover {
+  color: white;
+  background-color: lightslategrey;
+}
+
+a[href^="/nowhere"]:visited {
+  color: slategrey;
+}
+
+a[href^="/nowhere"]:visited:hover {
+  color: white;
+  background-color: slategrey;
 }
 
 a[href*="http"]::after {
